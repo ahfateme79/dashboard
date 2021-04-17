@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.interface li {
+	min-height: 60px;
+}
+
+header {
+	height: 80px;
+	position: static;
+	z-index: 5;
+}
+
+nav {
+	height: 100%;
+}
+
+.list img {
+	width: 40px;
+	height: 40px;
+}
+
+.list {
+	right: 22%;
+	top: 55px;
+	display: none;
+}
+.right {
+	right: 19%;
+	z-index: 10;
+}
+.pro-img{
+    width: 35px;
+    height: 35px;
+}
+.profile li{
+    height: 43px;
+}
+.items{
+	height: 105px;
+}
+.pro-height{
+	height: 440px;
+}
+.image{
+	/*max-width: 350px;*/
+	height: 300px;
+}
+.block{
+	display: block;
+}
+.width{
+	width: 25%;
+}
